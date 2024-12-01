@@ -51,4 +51,8 @@ for lokasi, data in data_panen.items():
 
 # Menampilkan jumlah hasil panen jagung dari lokasi2
 hasil_jagung_lokasi2 = data_panen['lokasi2']['hasil_panen']['jagung']
-print(f"Jumlah hasil panen jagung dari lokasi2: {hasil_jagung_lokasi2}")    
+print(f"Jumlah hasil panen jagung dari lokasi2: {hasil_jagung_lokasi2}")
+
+# Tampilkan nama lokasi dari lokasi3
+nama_lokasi3 = data_panen['lokasi3']['nama_lokasi']
+print(f"Nama lokasi dari lokasi3: {nama_lokasi3}\n")
